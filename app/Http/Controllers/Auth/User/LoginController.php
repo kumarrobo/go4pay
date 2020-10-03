@@ -60,7 +60,7 @@ class LoginController extends Controller
      */
     public function showLoginForm(Request $request)
     {
-        return view('welcome');
+        return view('homePage');
     }
 
 
