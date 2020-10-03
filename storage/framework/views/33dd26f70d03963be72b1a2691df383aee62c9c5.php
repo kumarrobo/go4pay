@@ -106,7 +106,7 @@
           <li class="nav-item"> <a class="nav-link" href="#">Terms of Use</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#">Privacy Policy</a> </li>
  -->        </ul>
-        <p class="copyright-text">Copyright © 2020 <a href="#">SiddiVentures</a>. All Rights Reserved.</p>
+        <p class="copyright-text">Copyright © 2020 <a href="#"><?php echo e(env('APP_NAME')); ?></a>. All Rights Reserved.</p>
       </div>
     </div>
   </footer>
